@@ -51,16 +51,19 @@ pluralizeListTitles = false
 # Social accounts config (This will display on the index page)
 [[menu.social]]
     name = "主日敬拜程序"
-    url = "/worship"
+    url = "/categories/主日敬拜程序/"
     weight = 1
 
 [[menu.social]]
     name = "讲道"
-    url = "/sermon"
+    url = "/categories/讲道/"
     weight = 2
 
 [[menu.social]]
     name = "户外敬拜"
-    url = "/outdoor"
+    url = "/categories/户外敬拜/"
     weight = 3
 
+[Taxonomies]
+  category = "categories"
+  tag = "tags"
