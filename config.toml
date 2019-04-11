@@ -1,12 +1,18 @@
-baseURL = "https://shwchurch3.github.io/t5/"
+baseURL = "https://shwchurch3.github.io/"
 languageCode = "zh-cn"
 title = "北京守望教会"
-theme = "hugo-theme-yuki"
+theme = "hugo-theme-shwchurch"
 
 
 # Copyright notice. This will display on the footer.
 copyright = ""
 paginate = 10
+
+disablePathToLower = true
+hasCJKLanguage = true
+preserveTaxonomyNames = true
+timeout = 20000
+pluralizeListTitles = false
 
 # Theme config
 [params]
@@ -23,43 +29,38 @@ paginate = 10
   favicon = "images/logo.png"
   logo = "images/logo.png"
   avatar = ""
-  displayImg = "images/display.png"
+  displayImg = "images/header_banner.jpg"
 
 
 # Navbar config
 [[menu.nav]]
-    name = "HOME"
+    name = "首页"
     url = "/"
     weight = 1
 
 [[menu.nav]]
-    name = "BLOG"
-    url = "/post"
-    weight = 2
-
-[[menu.nav]]
-    name = "ABOUT"
+    name = "关于守望"
     url = "/about"
     weight = 3
 
 [[menu.nav]]
-    name = "TAGS"
+    name = "所有分类"
     url = "/tags/"
     weight = 4
 
 # Social accounts config (This will display on the index page)
 [[menu.social]]
-    name = "Example-1"
-    url = "/"
+    name = "主日敬拜程序"
+    url = "/worship"
     weight = 1
 
 [[menu.social]]
-    name = "Example-2"
-    url = "/"
+    name = "讲道"
+    url = "/sermon"
     weight = 2
 
 [[menu.social]]
-    name = "Example-3"
-    url = "/"
+    name = "户外敬拜"
+    url = "/outdoor"
     weight = 3
 

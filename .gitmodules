@@ -5,3 +5,6 @@
 	path = public
 	url = https://github.com/shwchurch3/shwchurch3.github.io.git
 	branch = master
+[submodule "themes/hugo-theme-shwchurch"]
+	path = themes/hugo-theme-shwchurch
+	url = https://github.com/shwchurch3/hugo-theme-shwchurch.git
