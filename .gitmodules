@@ -1,0 +1,7 @@
+[submodule "themes/hugo-theme-yuki"]
+	path = themes/hugo-theme-yuki
+	url = https://github.com/iCyris/hugo-theme-yuki
+[submodule "public"]
+	path = public
+	url = https://github.com/shwchurch3/shwchurch3.github.io.git
+	branch = master
