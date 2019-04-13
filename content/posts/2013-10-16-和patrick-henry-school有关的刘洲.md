@@ -7,7 +7,7 @@ url: /2013/10/16/和patrickhenryschool有关的刘洲/
 dsq_thread_id:
   - 1863752636
 categories:
-  - 《@守望》第56期——我和守望（一）
+  - 《＠守望》第56期——我和守望（一）
 
 ---
 <p class="mce-wp-more" title="更多...">
